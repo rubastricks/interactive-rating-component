@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rating Form</title>
+  </head>
+  <body>
+    <!-- Front Card -->
+    <div class="main-container">
+      <div class="lil-star">
+        <img src="/images/icon-star.svg" alt="star rate" />
+      </div>
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <form class="main-form">
+        <input type="radio" name="ratings" id="rating1" value="1" />
+        <label for="rating1">1</label>
+
+        <input type="radio" name="ratings" id="rating2" value="2" />
+        <label for="rating2">2</label>
+
+        <input type="radio" name="ratings" id="rating3" value="3" />
+        <label for="rating3">3</label>
+
+        <input type="radio" name="ratings" id="rating4" value="4" />
+        <label for="rating4">4</label>
+
+        <input type="radio" name="ratings" id="rating5" value="5" />
+        <label for="rating5">5</label>
+
+        <button class="submited" type="submit">Submit</button>
+      </form>
+      <div class="attributtion">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Front End Mentor</a
+        >
+        Coded by <a href="#">Alisson Rubas</a>
+      </div>
+    </div>
+    <!-- Front Card End -->
+    <!-- Back Card -->
+    <div class="back-container hidden">
+      <img class="thank-you"" src="/images/illustration-thank-you.svg"
+      alt="thank you image" />
+
+      <div class="selection-out">
+        <p class="selection"></p>
+      </div>
+
+      <h2>Thank you!</h2>
+      <p class="msg">
+        We appreciat you taking the time to give a rating.If you ever need more
+        support, don't hesitate to get in touch!
+      </p>
+      <footer>
+        <div class="attributtion">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Front End Mentor</a
+          >
+          Coded by <a href="#">Alisson Rubas</a>
+        </div>
+      </footer>
+    </div>
+    <!-- Back Card end -->
+
+    <script src="form.js"></script>
+  </body>
+</html>

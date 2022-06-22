@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+}
+.main-container {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.25em;
+  max-width: 25em;
+}
+.lil-star {
+  background-color: hsl(213, 19%, 15%);
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 50%;
+  display: flex;
+  width: fit-content;
+  padding: 1em;
+}
+h1 {
+  color: #fff;
+  margin-left: 5%;
+}
+.main-container p {
+  margin-left: 5px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 30px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+label {
+  background-color: hsl(213, 19%, 23%);
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 20px;
+}
+input {
+  display: none;
+}
+input:checked + label {
+  transition: all 0.5s;
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+form label:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.submited {
+  text-align: center;
+  border: none;
+  letter-spacing: 0.15em;
+  padding: 0.5em;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-left: 7%;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  border-radius: 5em;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 85%;
+}
+.submited:focus,
+.submited:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+.attributtion {
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.attributtion a {
+  color: hsl(226, 34%, 48%);
+}
+
+/* Back Card */
+.back-container {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1.25em;
+  max-width: 25rem;
+}
+.thank-you {
+  margin-left: 25%;
+  width: 40%;
+  margin-top: 25px;
+}
+
+.back-container h2 {
+  margin-left: 30%;
+  color: #fff;
+  font-size: 30px;
+}
+.msg {
+  text-align: center;
+  margin-top: 7px;
+  color: hsl(217, 12%, 63%);
+}
+.selection {
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+}
+.selection-out {
+  margin-top: 1.5rem;
+  background-color: hsl(213, 19%, 23%);
+  border-radius: 15px;
+  height: 2rem;
+  width: 11.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5.8rem;
+}
+.hidden {
+  display: none;
+}
